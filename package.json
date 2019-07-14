@@ -1,0 +1,36 @@
+{
+  "name": "horizontal-scroll-slider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patwritescode/horizontal-scroll-slider.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patwritescode/horizontal-scroll-slider/issues"
+  },
+  "homepage": "https://github.com/patwritescode/horizontal-scroll-slider#readme",
+  "dependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.14",
+    "@emotion/core": "^10.0.14",
+    "@emotion/css": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "@types/node": "^12.6.2",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "in-viewport": "^3.6.0",
+    "next": "^9.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.5.3",
+    "vissense": "^0.10.0"
+  }
+}
