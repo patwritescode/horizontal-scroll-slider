@@ -6,7 +6,7 @@ const IndexPage: React.FC = () => {
     return (
         <div
             css={{
-                width: 330,
+                width: 800,
                 margin: "0 auto",
             }}
         >
@@ -19,8 +19,8 @@ const IndexPage: React.FC = () => {
                 }}
             />
             <Slider
-                renderPrev={(prev) => <button onClick={prev}>prev</button>}
-                renderNext={(next) => <button onClick={next}>next</button>}
+                renderPrev={(prev, canGoPrev) => <button onClick={prev} style={{ color: canGoPrev ? "green" : "red" }}>prev</button>}
+                renderNext={(next, canGoNext) => <button onClick={next} style={{ color: canGoNext ? "green" : "red" }}>next</button>}
             >
                 <CardItem backgroundColor="violet">one</CardItem>
                 <CardItem backgroundColor="indigo">two</CardItem>

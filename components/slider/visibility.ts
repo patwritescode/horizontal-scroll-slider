@@ -35,4 +35,4 @@ const extractElements = (
         }
         return prev.concat(curr.current);
     }, [] as HTMLDivElement[]);
-}
+};
