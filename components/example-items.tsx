@@ -8,6 +8,7 @@ export const CardItem = styled.div<CardItemProps>({
     width: 280,
     whiteSpace: "normal",
     flex: `1 0 300px`,
+    scrollSnapAlign: "start",
 }, ({ backgroundColor }) => ({
     backgroundColor,
 }));

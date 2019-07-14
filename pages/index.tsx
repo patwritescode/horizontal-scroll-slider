@@ -7,6 +7,7 @@ const IndexPage: React.FC = () => {
         <div
             css={{
                 width: 800,
+                maxWidth: "100%",
                 margin: "0 auto",
             }}
         >

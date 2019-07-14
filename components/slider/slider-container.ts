@@ -8,4 +8,5 @@ export const SliderContainer = styled.div({
     alignItems: "stretch",
     scrollBehavior: "smooth",
     position: "relative",
+    scrollSnapType: "x mandatory",
 });
