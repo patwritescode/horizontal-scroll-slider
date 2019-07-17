@@ -8,5 +8,6 @@ export const SliderContainer = styled.div({
     alignItems: "stretch",
     scrollBehavior: "smooth",
     position: "relative",
-    scrollSnapType: "x mandatory",
+    // scrollSnapType: "x mandatory",
+    // scroll snap type is a bit janky on swiping back since i don't think we can say snap to the right
 });

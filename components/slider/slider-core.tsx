@@ -28,7 +28,7 @@ export const Slider: React.FC<SliderProps> = ({
         const visibilityArr = getVisibilityArray(containerRef, itemRefs);
         const potentialPrevElementIndex = visibilityArr.indexOf(true) - 1;
         const item = locateMatch(itemRefs, potentialPrevElementIndex);
-        if (item && item) {
+        if (item) {
             containerRef.current.scrollTo(
                 item.offsetLeft
                 - containerRef.current.clientWidth
